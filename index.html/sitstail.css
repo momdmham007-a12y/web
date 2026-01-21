@@ -70,3 +70,66 @@ body {
     margin: 0;
     padding: 20px;
 }
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمالي | Portfolio</title>
+    <link rel="stylesheet" href="sitstail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#gallery">أعمالي</a></li>
+                <li><a href="#contact">تواصل معي</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>مرحباً، أنا محمد</h1>
+            <p>مصمم ومطور ويب مبتدئ شغوف بالتعلم</p>
+            <a href="#contact" class="btn">تواصل معي</a>
+        </div>
+        <div class="hero-image">
+            <img src="imges/Mohamed.jpg" alt="صورة شخصية">
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>أحدث التصاميم</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="imges/تصميم مشروب صيفي copy.jpg" alt="تصميم مشروب">
+                <h3>تصميم إعلاني</h3>
+            </div>
+            <div class="card">
+                <img src="imges/وظيفه copy.jpg" alt="إعلان وظيفة">
+                <h3>بوستر توظيف</h3>
+            </div>
+            <div class="card">
+                <img src="imges/فتحة copy.jpg" alt="عمل آخر">
+                <h3>تصميم إبداعي</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>لنتعمل سوياً</h2>
+        <img src="imges/connect.jpg" alt="تواصل" style="width: 150px; border-radius: 10px;">
+        <p>يمكنك مراسلتي عبر البريد الإلكتروني</p>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026</p>
+    </footer>
+
+</body>
+</html>
